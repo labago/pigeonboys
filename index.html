@@ -1,0 +1,59 @@
+<html>
+	<body>
+		<div class="bg-table">
+		    <img src="pbsmall.jpg" />
+		</div>
+		<!-- <embed src="crow.wav" hidden="true" autostart="true" loop="1" > -->
+		
+		<audio autoplay="autoplay" loop ><source src="./crow.wav" type="audio/x-wav" /></audio>
+	</body>
+</html>
+
+<style>
+	html {
+		margin: 0px;
+	}
+	
+	audiog { 
+	   visibility: none;
+	}
+
+	body { 
+		margin: 0px;
+		width: 100%;
+		background-color: #020258;
+	}
+
+	.bg{
+		display: block;
+		width: 70%;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	    background: url(pbsmall.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	
+	.bg-table{ 
+	   display: table;
+	   position: absolute;
+		top: 0;
+		bottom: 0;
+		height: 100%;
+	   width: 100%;
+	   margin-left: auto;
+	   margin-right: auto;
+	}
+	
+	.bg-table img { 
+	   display: table-cell;
+	       width: auto;
+    		height: 100%;
+	   margin-right: auto;
+	   margin-left: auto;
+	   vertical-align: middle;
+	}
+</style>
